@@ -1,5 +1,7 @@
 # Operator overloading in JavaScript
 
+![Stage 4](https://badges.aleen42.com/src/tc39_5.svg)
+
 Should JavaScript support operator overloading? It's not clear one way or another whether operator overloading has enough benefit in terms of the complexity, in terms of language design, implementation work, and security surface. At the same time, there's an argument that it's better to provide general operator overloading than to overload operators for specific, additional, built-in constructs (and partly for this reason, Decimal was not added as part of ES6, although it might have been useful for JS developers).
 
 This article tries to examine how operator overloading *could* look, if we want to go in this direction. Hopefully, the concreteness will help us decide whether to go down this path, which can help move the committee towards concrete next steps on long-standing feature requests, one way or another.
